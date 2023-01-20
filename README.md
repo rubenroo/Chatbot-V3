@@ -2,7 +2,7 @@
 For the Minor Real Fake, Real Impact, I created a chatbot with Pyton. This chatbot is built with NLTK, TensorFlow, and neural networks. It is highly customizable and can be modified to suit your needs. This chatbot was made with a tutorial from [pycodemates.com.](https://www.pycodemates.com/2021/11/build-a-AI-chatbot-using-python-and-deep-learning.html) 
 
 
-**Test it yourself:**
+**Test the bot:**
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/rubenroo/Chatbot-V3/HEAD?labpath=chatbot%20versie%205%20(feb%2C%20ruben).ipynb)
 
 
