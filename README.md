@@ -10,7 +10,7 @@ For the Minor Real Fake, Real Impact, I created a chatbot with Pyton. This chatb
 
 
 # What have i done
-I've added several features that make a chatbot familiar according to the literature. I have used this paper: *The Effect of Design Features on Relationship Quality with Embodied Conversational Agents: A Systematic Review* [(link)](https://link.springer.com/article/10.1007/s12369-020-00680-7) 
+I've added several features that give the chatbot 'trust and engagement' design features according to the literature. I have used this paper: *The Effect of Design Features on Relationship Quality with Embodied Conversational Agents: A Systematic Review* [(link)](https://link.springer.com/article/10.1007/s12369-020-00680-7) 
 
 I also apply on the knowledge gained from the AI trainer course from [conversationdesigninstitute.com.](conversationdesigninstitute.com) 
 
