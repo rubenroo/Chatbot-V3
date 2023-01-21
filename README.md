@@ -49,8 +49,15 @@ chatbot built with NLTK, TensorFlow, and neural networks is a type of artificial
 # What the chatbot can do
 The chatbot demonstrates the techniques mentioned above. The following questions are possible:
 
-- greeting 
--
+- Say Hello (Hi there)
+- Ask how the chatbot is doing (How are you doing?)
+- Say goodbye (See you later)
+- Thank him (Thanks)
+- check his check_wellbeing (Are you okay?)
+- Ask the chatbot for a joke (Tell me a joke)
+- Ask for his hobby's (What do you like to do in your spare time?)
+- Ask for a story (an you tell me a story?)
+- Say that you ar fine or not good (I'm good/I'm not good)
 And more!
 
 # Why this project
