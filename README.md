@@ -15,9 +15,9 @@ For the Minor Real Fake, Real Impact, I created a chatbot with Pyton. This chatb
 I've added several features that give the chatbot 'trust and engagement' design features according to the literature. I have used this paper: *The Effect of Design Features on Relationship Quality with Embodied Conversational Agents: A Systematic Review* [(link)](https://link.springer.com/article/10.1007/s12369-020-00680-7) I took the following insights from this and applied them to the chatbot:
 
 
-- *Language features that were shown to improve closeness included humour, a first-person storytelling perspective [77], ‘social reason- ing’ language (including self-disclosure, acknowledgement, praise, reference to shared experiences, adherence to or violation of social norms by degree of closeness detected, questions to elicit self-disclosure)*
+- *Language features that were shown to improve closeness included humour, a first-person storytelling perspective, ‘social reason- ing’ language (including self-disclosure, acknowledgement, praise, reference to shared experiences, adherence to or violation of social norms by degree of closeness detected, questions to elicit self-disclosure)*
 - *Small talk was shown to improve perceived trust, knowledge of the user, and success of the interaction for extroverted users, while task-oriented talk received higher ratings from introverted users*
-- *Self-disclosure of humanlike back stories was associated with higher self- disclosure intimacy and amount for users high in anxiety [53]. ECAs with a first-person storytelling perspective were shown to elicit more self-disclosure from users com- pared to ECAs with a third-person storytelling perspective*
+- *Self-disclosure of humanlike back stories was associated with higher self- disclosure intimacy and amount for users high in anxiety. ECAs with a first-person storytelling perspective were shown to elicit more self-disclosure from users com- pared to ECAs with a third-person storytelling perspective*
 -*mpathic language and facial expressions were shown to improve trust, ratings of agent caring and feelings of support*
 
 
