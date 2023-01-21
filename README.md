@@ -15,10 +15,16 @@ For the Minor Real Fake, Real Impact, I created a chatbot with Pyton. This chatb
 I've added several features that give the chatbot 'trust and engagement' design features according to the literature. I have used this paper: *The Effect of Design Features on Relationship Quality with Embodied Conversational Agents: A Systematic Review* [(link)](https://link.springer.com/article/10.1007/s12369-020-00680-7) I took the following insights from this and applied them to the chatbot:
 
 
-- *Language features that were shown to improve closeness included humour, a first-person storytelling perspective, ‘social reason- ing’ language (including self-disclosure, acknowledgement, praise, reference to shared experiences, adherence to or violation of social norms by degree of closeness detected, questions to elicit self-disclosure)*
+- *Language features that were shown to improve closeness included humour, a first-person storytelling perspective, ‘social reason- ing’ language (including self-disclosure, acknowledgement, praise, reference to shared experiences*
+  - I added humour through emoticons, jokes and funny sayings
+
+  
 - *Small talk was shown to improve perceived trust, knowledge of the user, and success of the interaction for extroverted users, while task-oriented talk received higher ratings from introverted users*
+  - If you ask the chatbot how he's doing, he also asks right away how you're doing. This is to  improve perceived trust.
+  
 - *Self-disclosure of humanlike back stories was associated with higher self- disclosure intimacy and amount for users high in anxiety. ECAs with a first-person storytelling perspective were shown to elicit more self-disclosure from users com- pared to ECAs with a third-person storytelling perspective*
 -*mpathic language and facial expressions were shown to improve trust, ratings of agent caring and feelings of support*
+   - I added the first-person narrative perspective by having the chatbot talk about his hobbies and let him tel a personal story.
 
 
 
@@ -26,12 +32,13 @@ I've added several features that give the chatbot 'trust and engagement' design 
 
 I also applied on the knowledge gained from the AI trainer course from [conversationdesigninstitute.com.](conversationdesigninstitute.com) i've used the following insight in this chatbot:
 - Generally, 20 training phrases do you want to match to an intent
+  - I noticed that the chatbot started responding worse by adding 20 patterns per intent. Nevertheless, I applied this because it shows that I understand the lessons from the course. 
 - If the confidence score is low, the Assistant should not offer the user an intent
+
 - You have to get the postive flow right first
+  -I've tested the positive flow
 
-**It's not working great**
 
-I noticed that the chatbot started responding worse by adding 20 patterns per intent. Nevertheless, I applied this because it shows that I understand the lessons from the course. 
 
 
 
@@ -42,8 +49,7 @@ chatbot built with NLTK, TensorFlow, and neural networks is a type of artificial
 # What the chatbot can do
 The chatbot demonstrates the techniques mentioned above. The following questions are possible:
 
-- my name is (.*)
-- what is your name ?
+- greeting 
 -
 And more!
 
