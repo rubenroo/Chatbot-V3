@@ -16,7 +16,7 @@ I've added several features that give the chatbot 'trust and engagement' design 
 
 
 - *Language features that were shown to improve closeness included humour, a first-person storytelling perspective, ‘social reason- ing’ language (including self-disclosure, acknowledgement, praise, reference to shared experiences*
-  - I added humour through emoticons, jokes and funny sayings
+  - I added humour and a personality through emoticons, jokes and funny sayings
 
   
 - *Small talk was shown to improve perceived trust, knowledge of the user, and success of the interaction for extroverted users, while task-oriented talk received higher ratings from introverted users*
