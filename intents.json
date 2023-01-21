@@ -1,19 +1,55 @@
  {"intents": [
         {"tag": "greeting",
-         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
-         "responses": ["Hello", "Good to see you again", "Hi there, how can I help?"],
+         "patterns": ["Hi there", "Hey", "Hola", "Hello", "Good day", "Hi", "greetings", "Sup", "Yo", "Ello", "Ciao", "Hey there", "hatsup", "Good morging", "Good afternoon", "good evening", "welcome", "Howdy-do"],
+         "responses": ["Hi, How are you doing today? :)", "Good to see you again :)", "Hi there, Im here to serve you :)"],
+         "context": [""]
+        },
+        {"tag": "how_are_you",
+         "patterns": ["How are you?", "How are you doing?", "How's it going?", "How's everything?", "How have you been?", "What's up?", "What's new?", "How's your day?", "How's your mood?", "How have you been holding up?", "How's life?", "How have you been feeling?", "How are things going for you?", "How have you been keeping?"],
+         "responses": ["I'm doing well, thank you for asking. How are you?", "I'm good, thanks for inquiring. How are you?", "I'm great, how are you?"],
          "context": [""]
         },
         {"tag": "goodbye",
-         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
-         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time", "Farewell", "Adieu", "Catch you later", "Till next time", "later", "Peace out", "See ya", "Have a good one", "Take it easy", "Be good", "Talk to you later", "I'm out", "Bye-bye", "Time to go", "Take it easy"],
+         "responses": ["See you! :)", "Have a nice day, talk to you soon :)", "Bye! Come back again soon :)"],
          "context": [""]
         },
         {"tag": "thanks",
-         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me", "I appreciate it", "Much obliged", "Many thanks", "Thanks a bunch", "Thank you very much", "I am grateful", "Thank you kindly", "I owe you one", "I can't thank you enough","Gracias","Merci","Danke","Spasibo","Arigatou","Grazie","Dziękuję","Takk"],
          "responses": ["My pleasure", "You're Welcome"],
          "context": [""]
         },
+        {"tag": "check_wellbeing",
+         "patterns": ["Are you okay?", "Are you all right?", "Is everything okay?", "Is everything alright?", "Is everything fine?", "Are you feeling okay?", "Is everything good?", "Is everything well?", "Are you well?", "Are you okay today?", "How are you holding up?", "How are you feeling?", "How are you doing?", "How are you coping?", "How are you today?", "How are things?", "How have you been?", "How are you feeling today?", "How's your day going?"],
+         "responses": ["I'm doing well, thank you for asking. How about you?", "I'm good, thanks for inquiring. How about you?", "I'm great, how are you?"],
+         "context": [""]
+        },
+        {"tag": "joke",
+         "patterns": ["Tell me a joke", "Make me laugh", "Joke of the day", "Can you tell me a joke?", "Got any jokes?", "I need a laugh", "Can you make me chuckle?", "Got any good jokes?", "I need something to make me smile","Can you tell me something funny?","Can you make me giggle?", "I want to hear a joke","Give me a good laugh", "Can you entertain me with a joke", "Can you tell me something amusing","I want to hear something funny","Can you lighten my mood with a joke", "I need a good laugh"],
+         "responses": ["Why did the tomato turn red? Because it saw the salad dressing!", "Why don't scientists trust atoms? Because they make up everything!", "Why was the math book sad? Because it had too many problems.", "Why don't oysters give to charity? Because they're shellfish.", "What do you call a fake noodle? An impasta."],
+         "context": [""]
+        },
+        {"tag": "hobbies",
+         "patterns": ["What are your hobbies?", "What do you like to do in your spare time?", "What are some of your interests?", "What are your favorite activities?", "What do you do for fun?", "What are your passions?", "What do you enjoy doing?", "What are your pastimes?", "What are your leisure activities?", "What are your favourite hobbies?", "What are you into?", "What are you interested in?", "What are your favourite things to do?", "What are your preferred activities?", "What do you like to do for fun?", "What are your hobbies and interests?", "What kind of things do you like to do?", "What are the things that you enjoy doing most?", "What are your favourite pastimes?"],
+         "responses": ["My hobbies include reading, writing, playing sports, and travelling. I also enjoy learning new languages and trying new foods. What about you?", "I love photography, playing video games and reading books, Also i love to cook and experiment with new recipes."],
+         "context": [""]
+        },
+        {"tag": "story",
+         "patterns": ["Tell me a story", "Can you tell me a story?", "I want to hear a story", "Can you share a story with me?", "Can you tell me an interesting story?", "Can you tell me a tale?", "Can you share a tale with me?", "Can you tell me a fable?", "Can you share a fable with me?", "Can you tell me a myth?", "Can you share a myth with me?", "Can you tell me a legend?", "Can you share a legend with me?", "Can you tell me a yarn?", "Can you share a yarn with me?", "Can you tell me an anecdote?", "Can you share an anecdote with me?", "Can you tell me a parable?", "Can you share a parable with me?", "Can you tell me a tale of adventure?"],
+         "responses": ["Once upon a time, there was a kind and determined young girl named Cinderella who, with the help of her fairy godmother, was able to attend the royal ball and win the heart of the prince. Despite the obstacles she faced from her stepmother and stepsisters, Cinderella never gave up hope and her kindness and perseverance led her to a happy ending. ", "There was a boy named Jack, who lived in a small village. He was very poor but very kind and hardworking. One day he found a magic bean which he traded for a cow, the beanstalk grew and he climbed up to reach a giants castle where he got treasures and also he became rich."],
+         "context": [""]
+        },
+        {"tag": "fine",
+         "patterns": ["I'm fine", "I'm good", "I'm doing well", "I'm okay", "I'm alright", "I'm all good", "I'm not bad", "I'm not too bad", "I'm not too shabby", "I'm feeling good", "I'm feeling great", "I'm feeling fine", "I'm feeling okay", "I'm feeling alright", "I'm feeling all good", "I'm feeling not bad", "I'm feeling not too bad", "I'm feeling not too shabby", "I'm feeling positive", "I'm feeling great, thanks for asking"],
+         "responses": ["That's great to hear! Is there anything I can help you with today?", "I'm glad to hear that. How has your day been so far?", "That's fantastic news. Is there anything new or exciting happening in your life?"],
+         "context": [""]
+        },
+        {"tag": "not_good",
+         "patterns": ["I'm not good", "I'm not feeling well", "I'm not doing well", "I'm not okay", "I'm not alright", "I'm not great", "I'm feeling bad", "I'm feeling down", "I'm feeling sick", "I'm feeling low", "I'm feeling terrible", "I'm feeling horrible", "I'm feeling awful", "I'm feeling sad", "I'm feeling depressed", "I'm feeling stressed", "I'm feeling overwhelmed", "I'm feeling anxious", "I'm having a bad day", "I'm not in a good place"],
+         "responses": ["I'm sorry to hear that. Is there anything I can do to help?", "That's not good to hear. Is there something specific that's been bothering you?", "I understand. Would you like to talk about what's been going on for you?"],
+         "context": [""]
+        },
+
         {"tag": "query",
          "patterns": ["What is big bang?"],
          "responses": ["The Big Bang theory is the prevailing cosmological model explaining the existence of the observable universe from the earliest known periods through its subsequent large-scale evolution."],
