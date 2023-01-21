@@ -10,9 +10,25 @@ For the Minor Real Fake, Real Impact, I created a chatbot with Pyton. This chatb
 
 
 # What have i done
-I've added several features that give the chatbot 'trust and engagement' design features according to the literature. I have used this paper: *The Effect of Design Features on Relationship Quality with Embodied Conversational Agents: A Systematic Review* [(link)](https://link.springer.com/article/10.1007/s12369-020-00680-7) 
+I've added several features that give the chatbot 'trust and engagement' design features according to the literature. I have used this paper: *The Effect of Design Features on Relationship Quality with Embodied Conversational Agents: A Systematic Review* [(link)](https://link.springer.com/article/10.1007/s12369-020-00680-7) I took the following insights from this and applied them to the chatbot:
 
-I also apply on the knowledge gained from the AI trainer course from [conversationdesigninstitute.com.](conversationdesigninstitute.com) 
+**Used Literature**
+- *Language features that were shown to improve closeness included humour, a first-person storytelling perspective [77], ‘social reason- ing’ language (including self-disclosure, acknowledgement, praise, reference to shared experiences, adherence to or violation of social norms by degree of closeness detected, questions to elicit self-disclosure)*
+- *Small talk was shown to improve perceived trust, knowledge of the user, and success of the interaction for extroverted users, while task-oriented talk received higher ratings from introverted users*
+- *Self-disclosure of humanlike back stories was associated with higher self- disclosure intimacy and amount for users high in anxiety [53]. ECAs with a first-person storytelling perspective were shown to elicit more self-disclosure from users com- pared to ECAs with a third-person storytelling perspective*
+-*mpathic language and facial expressions were shown to improve trust, ratings of agent caring and feelings of support*
+
+
+
+**CDI course**
+
+I also applied on the knowledge gained from the AI trainer course from [conversationdesigninstitute.com.](conversationdesigninstitute.com) i've used the following insight in this chatbot:
+- Generally, 20 training phrases do you want to match to an intent
+- If the confidence score is low, the Assistant should not offer the user an intent
+- You have to get the postive flow right first
+
+
+
 
 
 
