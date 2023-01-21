@@ -29,8 +29,9 @@ I also applied on the knowledge gained from the AI trainer course from [conversa
 - If the confidence score is low, the Assistant should not offer the user an intent
 - You have to get the postive flow right first
 
+**It's not working great**
 
-
+I noticed that the chatbot started responding worse by adding 20 patterns per intent. Nevertheless, I applied this because it shows that I understand the lessons from the course. 
 
 
 
